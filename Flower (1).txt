@@ -1,0 +1,32 @@
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Feruza", 37)
+
+print(p1.name)
+print(p1.age)
+class Flower:
+    def __init__(self, name):
+        self.name = name
+#add my name
+
+    def grow(self):
+        print("The " +self.name + " is growing.")
+#add new flower name
+    def bloom(self):
+        print("The " + self.name + " is blooming.")
+#add important way
+def main():
+    flower1 = Flower("Lela")
+    flower1.grow()
+    flower1.bloom()
+    flower2 = Flower("Rosa")
+    flower2.grow()
+    flower2.bloom()
+#I didn´t add another new flower line
+#because it was show me the wrong
+#I don´t know why. 
+if __name__ == "__main__":
+  main()
